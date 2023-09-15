@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*2) Utilizando el mismo programa anterior, se pide que luego de mostrar los 10 valores
-ingresados por teclado, ahora se ingresen 5 valores adicionales al nuevo vector. Es decir,
-el vector debe tener 15 posiciones, pero se debe utilizar el mismo puntero que ahora
-tendrá 15 lugares. Pruebe el programa, y explique qué sucede. Capture pantallas y
-pégales como parte de la respuesta. */
+/*4) Dada una estructura Persona que contiene los siguientes miembros:
+Nombre
+Apellido
+Edad
+DNI
+Se pide que construya un programa que permita cargar dos personas en un struct
+dinámico (no utilizar vectores, utilizar dos variables diferentes en memoria dinámica). */
 
 #include <stdio.h>
 #include <stdlib.h>
