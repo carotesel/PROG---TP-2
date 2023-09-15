@@ -70,5 +70,10 @@ int main()
         printf("\nPersona 1: %s %s, Edad %d, DNI %d", P->nombre, P->apellido, P->edad, P->dni);
         printf("\nPersona 2: %s %s, Edad %d, DNI %d", P2->nombre, P2->apellido, P2->edad, P2->dni);
     }
+
+        free(P);
+        free(P2);
+
+
     return 0;
 }
