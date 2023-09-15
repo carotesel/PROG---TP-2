@@ -60,5 +60,8 @@ int main()
             printf("\nPersona %d: %s %s, Edad %d, DNI %d", i + 1, P[i].nombre, P[i].apellido, P[i].edad, P[i].dni);
         }
     }
+
+        free(P);
+
     return 0;
 }
